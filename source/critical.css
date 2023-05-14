@@ -1,0 +1,44 @@
+body {
+	all: unset;
+	background-color: #deeaea;
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+.upper-background {
+	position: absolute;
+	z-index: -1;
+	inset: 0;
+	bottom: 40%;
+	background: #1e3044;
+	border-radius: 0 0 100px 0;
+}
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	min-height: 100dvh;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+}
+h1 {
+	font-family: 'Quattrocento', serif;
+	font-size: 3rem;
+	color: white;
+	width: max-content;
+	margin: 2rem;
+}
+img {
+	display: inline-block;
+	object-fit: contain;
+}
+.content-body {
+	background: #deeaea;
+	padding: 20px;
+	width: 400px;
+	max-width: 100%;
+	font-size: 1.2rem;
+	margin-left: -2rem;
+}
